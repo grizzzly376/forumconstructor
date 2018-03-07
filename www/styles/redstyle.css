@@ -1,0 +1,51 @@
+#main{
+ margin-left:7%;
+ margin-right:7%;
+}
+.sbutton , .fbutton{
+ background:url('../images/redstyle.png');
+}
+.group , .thread{
+ border:solid #9c3349 1px;
+ margin:10px;
+}
+.thread{
+ border:none;
+}
+#main>.group{
+ border-bottom:none;
+}
+*{
+border-color:#9c3349 !important ;
+font-family:Sans-serif;
+font-size:14px;
+}
+#mwrap{
+ border-color:#ddd !important;
+}
+body{
+ background:#ffffb4;
+}
+#top , #menu{
+margin-left:0;
+margin-right:0;
+border:none;
+}
+#main{
+border:none;
+box-shadow:2px 2px 7px 1px #333;
+}
+#menu a{
+ padding-left: 30px;
+ display:inline-block;
+ margin-left:5px;
+ width:125px;
+ background:rgba(255,255,255,.2);
+}
+#top hr{
+ display:none;
+}
+.user-avatar{
+ border-right:solid red 2px;
+ border-bottom:solid red 2px
+}

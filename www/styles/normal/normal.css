@@ -1,0 +1,37 @@
+.sbutton , .fbutton{
+ background:grey;
+}
+#top , #menu, #bottom{
+	background:rgba(255,255,255,.5);
+}
+#mwrap{
+	border:none;	
+}
+#menu a , #menu table{
+	color:black;
+}
+.group , .post , #top , #menu a:hover , #main{	
+	background:rgba(255,255,255,.5);
+}
+.group{
+	border:black solid 1px;
+}
+#top , #main , #menu , .thread, #bottom{
+	border:none;
+}
+
+.group>span{
+	position:relative;
+	margin-left:15px;
+	background:linear-gradient(to right, rgba(163,163,163,0) 0%,rgba(163,163,163,0.5) 100%);
+	width:100%;
+	
+}
+
+.group>span:after{
+	content:'\0a';
+	white-space: pre;
+}
+*{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}

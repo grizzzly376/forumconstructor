@@ -1,0 +1,75 @@
+.sbutton , .fbutton{
+ background:url('bg.png');
+}
+.group , .thread{
+ border:solid violet 1px;
+ margin:10px;
+}
+*{
+border-color:#333 !important ;
+font-size:16px;
+}
+#mwrap{
+ border-color:#ddd !important;
+}
+body{
+ background:#1c0241;
+}
+.thread{
+ border:none;
+}
+
+.user-avatar{
+ outline:3px double #1c0241;
+}
+#main , #top{
+	border:none;
+}
+#main{
+	margin-right:0;
+	margin-left:150px;
+	margin-top:5px;
+	background:rgba(255,255,255,.5);
+}
+.group , .post , #top , #menu a:hover , .group>span{	
+	background:rgba(255,255,255,.5) !important;
+}
+.group>span{
+	border:black solid 1px;
+	border-bottom:none;
+	margin-top:-34px !important;
+	margin-left:-11px;
+}
+.group{
+	margin-top:30px;
+}
+#top{
+	margin-right:150px;
+	margin-left:0;
+ 	margin-top:5px;
+}
+#menu , #mwrap{
+ 	border:none;
+}
+#menu{
+	margin-left:0;
+	position:fixed;
+}
+#menu a{
+ 	display:block;
+ 	width:120px;
+}
+#top hr{
+	display:none;
+}
+#top{
+	z-index:1;
+}
+.login_form input{
+	background:rgba(255,255,255,.5) !important;
+	width:90px;
+	height:20px;
+}
+.login_form span{
+	margin-left:10px;
+}

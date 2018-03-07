@@ -1,0 +1,29 @@
+.sbutton , .fbutton{
+ background:url('../images/blackstyle.png');
+}
+.group , .thread{
+ border:solid #333 1px;
+ margin:10px;
+}
+*{
+border-color:#333 !important ;
+font-family:Monospace;
+font-size:14px;
+}
+#mwrap{
+ border-color:#ddd !important;
+}
+body{
+ background:#707070;
+}
+.thread{
+ border:none;
+}
+#main>.group{
+ border:none;
+ border-top:5px solid black;
+}
+.user-avatar{
+ border:solid black 1px;
+ border-bottom:3px solid black;
+}
